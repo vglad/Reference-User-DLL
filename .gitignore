@@ -28,8 +28,8 @@ bld/
 #wwwroot/
 
 #cppcheck files and folders
-cppcheck*/
-cppcheck*.*
+cppcheckdemo-cppcheck-build-dir/
+.cppcheck
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
