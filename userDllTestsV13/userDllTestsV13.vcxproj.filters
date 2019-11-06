@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="pch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="FakeOHCommunicator.h">
+      <Filter>TableInfo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="FakeOHCommunicator.inl">
+      <Filter>TableInfo</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="TableInfo">
+      <UniqueIdentifier>{a7f9f3ce-0cca-42ef-9179-cd00872560ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

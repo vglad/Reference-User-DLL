@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="OH default files">
+      <UniqueIdentifier>{daad6a3c-4c27-43ff-a32a-ba045e987279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General">
+      <UniqueIdentifier>{25e3d3c2-3352-4c11-9e3a-cf01e7f36383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Updater">
+      <UniqueIdentifier>{4fb07811-8e03-4b9f-b45a-bb424906e63a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extensions">
+      <UniqueIdentifier>{4428e0fb-b7d4-4d4a-ac63-e02c7ccf6ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{72c3b318-3637-4cdf-aeb8-12767f38d201}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OpenHoldemFunctions.cpp">
+      <Filter>OH default files</Filter>
+    </ClCompile>
+    <ClCompile Include="user.cpp">
+      <Filter>OH default files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OpenHoldemFunctions.h">
+      <Filter>OH default files</Filter>
+    </ClInclude>
+    <ClInclude Include="user.h">
+      <Filter>OH default files</Filter>
+    </ClInclude>
+    <ClInclude Include="Range.h" />
+    <ClInclude Include="HelperFunctions.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicNumbers.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Update.h">
+      <Filter>Updater</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h" />
+    <ClInclude Include="RangeOrder.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Converter.h">
+      <Filter>Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="BotLogic.h" />
+    <ClInclude Include="PT.h" />
+    <ClInclude Include="IBridge.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="OHComm.h">
+      <Filter>Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="TableInfo.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="OHCommunicator.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Range.inl" />
+    <None Include="Update.inl">
+      <Filter>Updater</Filter>
+    </None>
+    <None Include="Table.inl" />
+    <None Include="Converter.inl">
+      <Filter>Extensions</Filter>
+    </None>
+    <None Include="Player.inl" />
+    <None Include="BotLogic.inl" />
+    <None Include="PT.inl" />
+    <None Include="OHComm.inl">
+      <Filter>Extensions</Filter>
+    </None>
+    <None Include="TableInfo.inl">
+      <Filter>Test</Filter>
+    </None>
+    <None Include="OHCommunicator.inl">
+      <Filter>Test</Filter>
+    </None>
+  </ItemGroup>
+</Project>

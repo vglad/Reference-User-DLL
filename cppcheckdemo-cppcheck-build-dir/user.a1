@@ -1,0 +1,408 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1241470447">
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;co_stack&apos; can be reduced." verbose="The scope of the variable &apos;co_stack&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\Player.inl" line="59"/>
+            <symbol>co_stack</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;co_stack&apos; can be reduced." verbose="The scope of the variable &apos;co_stack&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\Player.inl" line="138"/>
+            <symbol>co_stack</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;co_stack&apos; can be reduced." verbose="The scope of the variable &apos;co_stack&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\Range.inl" line="236"/>
+            <symbol>co_stack</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;sb_stack&apos; can be reduced." verbose="The scope of the variable &apos;sb_stack&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\Range.inl" line="355"/>
+            <symbol>sb_stack</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;bb_stack&apos; can be reduced." verbose="The scope of the variable &apos;bb_stack&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\Range.inl" line="356"/>
+            <symbol>bb_stack</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;sb_stack&apos; can be reduced." verbose="The scope of the variable &apos;sb_stack&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\Range.inl" line="396"/>
+            <symbol>sb_stack</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;bb_stack&apos; can be reduced." verbose="The scope of the variable &apos;bb_stack&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\Range.inl" line="397"/>
+            <symbol>bb_stack</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;exploit_playing_percent&apos; can be reduced." verbose="The scope of the variable &apos;exploit_playing_percent&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\BotLogic.inl" line="76"/>
+            <symbol>exploit_playing_percent</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;co_stack&apos; is assigned a value that is never used." verbose="Variable &apos;co_stack&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\Player.inl" line="329"/>
+            <symbol>co_stack</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;bu_stack&apos; is assigned a value that is never used." verbose="Variable &apos;bu_stack&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\Player.inl" line="330"/>
+            <symbol>bu_stack</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;sb_stack&apos; is assigned a value that is never used." verbose="Variable &apos;sb_stack&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\Player.inl" line="331"/>
+            <symbol>sb_stack</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;bb_stack&apos; is assigned a value that is never used." verbose="Variable &apos;bb_stack&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\Player.inl" line="332"/>
+            <symbol>bb_stack</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;co_stack&apos; is assigned a value that is never used." verbose="Variable &apos;co_stack&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\Range.inl" line="339"/>
+            <symbol>co_stack</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;bu_stack&apos; is assigned a value that is never used." verbose="Variable &apos;bu_stack&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\Range.inl" line="340"/>
+            <symbol>bu_stack</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;sb_stack&apos; is assigned a value that is never used." verbose="Variable &apos;sb_stack&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\Range.inl" line="341"/>
+            <symbol>sb_stack</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;bb_stack&apos; is assigned a value that is never used." verbose="Variable &apos;bb_stack&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\Range.inl" line="342"/>
+            <symbol>bb_stack</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;co_stack&apos; is assigned a value that is never used." verbose="Variable &apos;co_stack&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\Range.inl" line="353"/>
+            <symbol>co_stack</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;bu_stack&apos; is assigned a value that is never used." verbose="Variable &apos;bu_stack&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\Range.inl" line="354"/>
+            <symbol>bu_stack</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;co_stack&apos; is assigned a value that is never used." verbose="Variable &apos;co_stack&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\Range.inl" line="394"/>
+            <symbol>co_stack</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;bu_stack&apos; is assigned a value that is never used." verbose="Variable &apos;bu_stack&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\Range.inl" line="395"/>
+            <symbol>bu_stack</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;exploit_playing_percent&apos; is assigned a value that is never used." verbose="Variable &apos;exploit_playing_percent&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\BotLogic.inl" line="76"/>
+            <symbol>exploit_playing_percent</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;result&apos; is assigned a value that is never used." verbose="Variable &apos;result&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" line="265"/>
+            <symbol>result</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Dev/Visual Studio 2017/Projects/Reference User DLL/User_DLL/OHComm.h:11:25" call-funcname="read_symbol" call-argnr="2" filename="C:/Dev/Visual Studio 2017/Projects/Reference User DLL/User_DLL/OHComm.inl" linenr="47" call-argexpr="BUILT_IN_SYMBOL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Dev/Visual Studio 2017/Projects/Reference User DLL/User_DLL/OHCommunicator.h:10:17" call-funcname="read_symbol" call-argnr="2" filename="C:/Dev/Visual Studio 2017/Projects/Reference User DLL/User_DLL/OHCommunicator.inl" linenr="39" call-argexpr="BUILT_IN_SYMBOL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Dev/Visual Studio 2017/Projects/Reference User DLL/User_DLL/TableInfo.h:17:21" call-funcname="get_player_default_info" call-argnr="1" filename="C:/Dev/Visual Studio 2017/Projects/Reference User DLL/User_DLL/TableInfo.inl" linenr="12" call-argexpr="i" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Dev/Visual Studio 2017/Projects/Reference User DLL/User_DLL/BotLogic.h:15:25" call-funcname="check_combo_for_allin" call-argnr="5" filename="C:/Dev/Visual Studio 2017/Projects/Reference User DLL/User_DLL/BotLogic.inl" linenr="62" call-argexpr="play_exploit" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path filename="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\BotLogic.inl" linenr="44" info="Assuming that condition 'play_exploit' is not redundant"/>
+</function-call><function-call call-id="C:/Dev/Visual Studio 2017/Projects/Reference User DLL/User_DLL/BotLogic.h:16:25" call-funcname="combo_ev_correction" call-argnr="3" filename="C:/Dev/Visual Studio 2017/Projects/Reference User DLL/User_DLL/BotLogic.inl" linenr="100" call-argexpr="exploit" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path filename="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\BotLogic.inl" linenr="101" info="Assuming that condition 'exploit?exploit_combo_allin_info:gto_combo_allin_info' is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Dev/Visual Studio 2017/Projects/Reference User DLL/User_DLL/OHComm.h:19:25" my-argnr="1" my-argname="time_buf" filename="C:/Dev/Visual Studio 2017/Projects/Reference User DLL/User_DLL/OHComm.inl" linenr="67"/>
+    <unsafe-usage my-id="C:/Dev/Visual Studio 2017/Projects/Reference User DLL/User_DLL/OHCommunicator.h:15:19" my-argnr="1" my-argname="time_buf" filename="C:/Dev/Visual Studio 2017/Projects/Reference User DLL/User_DLL/OHCommunicator.inl" linenr="59"/>
+  </FileInfo>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::fill algorithm instead of a raw loop." verbose="Consider using std::fill algorithm instead of a raw loop." cwe="398">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\user.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\TableInfo.inl" line="611"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="DLLOnLoad" lineNumber="45"/>
+    <functiondecl functionName="DLLOnUnLoad" lineNumber="48"/>
+    <functiondecl functionName="DLLUpdateOnNewFormula" lineNumber="51"/>
+    <functiondecl functionName="DLLUpdateOnConnection" lineNumber="54"/>
+    <functiondecl functionName="DLLUpdateOnHandreset" lineNumber="57"/>
+    <functiondecl functionName="DLLUpdateOnNewRound" lineNumber="60"/>
+    <functiondecl functionName="DLLUpdateOnMyTurn" lineNumber="63"/>
+    <functiondecl functionName="DLLUpdateOnHeartbeat" lineNumber="66"/>
+    <functiondecl functionName="ProcessQuery" lineNumber="77"/>
+    <functiondecl functionName="DllMain" lineNumber="320"/>
+    <functioncall functionName="AllocConsole"/>
+    <functioncall functionName="BUILT_IN_SYMBOL"/>
+    <functioncall functionName="BotLogic"/>
+    <functioncall functionName="Converter"/>
+    <functioncall functionName="FileExist"/>
+    <functioncall functionName="FreeConsole"/>
+    <functioncall functionName="GetHandnumber"/>
+    <functioncall functionName="GetSymbol"/>
+    <functioncall functionName="InitializeOpenHoldemFunctionInterface"/>
+    <functioncall functionName="LocalFree"/>
+    <functioncall functionName="MEMORY_SYMBOL"/>
+    <functioncall functionName="OHComm"/>
+    <functioncall functionName="OHCommunicator"/>
+    <functioncall functionName="PT"/>
+    <functioncall functionName="ParseHandList"/>
+    <functioncall functionName="Player"/>
+    <functioncall functionName="Range"/>
+    <functioncall functionName="ScrapeTableMapRegion"/>
+    <functioncall functionName="Table"/>
+    <functioncall functionName="TableInfo"/>
+    <functioncall functionName="Update"/>
+    <functioncall functionName="WriteLog"/>
+    <functioncall functionName="_strdup"/>
+    <functioncall functionName="_t1"/>
+    <functioncall functionName="active_players_counter"/>
+    <functioncall functionName="allin"/>
+    <functioncall functionName="allin_positions"/>
+    <functioncall functionName="allin_positions_to_text"/>
+    <functioncall functionName="allin_situation"/>
+    <functioncall functionName="allin_situation_to_text"/>
+    <functioncall functionName="app"/>
+    <functioncall functionName="append"/>
+    <functioncall functionName="atoi"/>
+    <functioncall functionName="balance"/>
+    <functioncall functionName="base"/>
+    <functioncall functionName="bb_chair"/>
+    <functioncall functionName="bb_chairs"/>
+    <functioncall functionName="bb_stack"/>
+    <functioncall functionName="bblind"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bet"/>
+    <functioncall functionName="bet_or_balance_symbol"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="bu_chair"/>
+    <functioncall functionName="bu_stack"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="caller"/>
+    <functioncall functionName="card1"/>
+    <functioncall functionName="card2"/>
+    <functioncall functionName="card_index"/>
+    <functioncall functionName="card_index_to_text"/>
+    <functioncall functionName="card_rank_to_int"/>
+    <functioncall functionName="ch"/>
+    <functioncall functionName="chair"/>
+    <functioncall functionName="chair1"/>
+    <functioncall functionName="chair2"/>
+    <functioncall functionName="chair_bit_number"/>
+    <functioncall functionName="chair_bit_number_to_int"/>
+    <functioncall functionName="chair_bit_value"/>
+    <functioncall functionName="chair_number"/>
+    <functioncall functionName="check_combo_for_allin"/>
+    <functioncall functionName="check_correct_number_of_lines"/>
+    <functioncall functionName="check_enough_players_active"/>
+    <functioncall functionName="check_enough_players_seated"/>
+    <functioncall functionName="check_if_file_exist"/>
+    <functioncall functionName="check_strategy_file"/>
+    <functioncall functionName="chips_in_bet_or_balance"/>
+    <functioncall functionName="clear_table_info"/>
+    <functioncall functionName="co_stack"/>
+    <functioncall functionName="combo"/>
+    <functioncall functionName="combo_allin_info"/>
+    <functioncall functionName="combo_ev_correction"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="const_cast"/>
+    <functioncall functionName="converted_card1"/>
+    <functioncall functionName="converted_card2"/>
+    <functioncall functionName="correct_players_names_file_format"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="create_default_players_names_file"/>
+    <functioncall functionName="ctime_s"/>
+    <functioncall functionName="current_p_name"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="duration"/>
+    <functioncall functionName="duration_cast"/>
+    <functioncall functionName="eff_stack"/>
+    <functioncall functionName="eff_stack_for_first_to_act"/>
+    <functioncall functionName="eff_stack_for_one_allin"/>
+    <functioncall functionName="eff_stack_for_three_allins"/>
+    <functioncall functionName="eff_stack_for_two_allins"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="empty_vector"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="ev"/>
+    <functioncall functionName="ev_correction"/>
+    <functioncall functionName="ev_correction_big"/>
+    <functioncall functionName="ev_correction_small"/>
+    <functioncall functionName="exploit"/>
+    <functioncall functionName="exploit_combo_allin_info"/>
+    <functioncall functionName="exploit_file"/>
+    <functioncall functionName="exploit_file_for_first_to_act"/>
+    <functioncall functionName="exploit_file_for_one_allin"/>
+    <functioncall functionName="exploit_file_full_path"/>
+    <functioncall functionName="fabs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="file"/>
+    <functioncall functionName="file_ext"/>
+    <functioncall functionName="file_name"/>
+    <functioncall functionName="file_path"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="find_first_of"/>
+    <functioncall functionName="find_if"/>
+    <functioncall functionName="find_last_of"/>
+    <functioncall functionName="first_digit"/>
+    <functioncall functionName="first_to_act_positions_info"/>
+    <functioncall functionName="fold"/>
+    <functioncall functionName="fold_to_call_stat_name"/>
+    <functioncall functionName="fold_to_call_stat_value"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="from"/>
+    <functioncall functionName="full_stack_size"/>
+    <functioncall functionName="full_stack_size_in_bb"/>
+    <functioncall functionName="generate_stat_name"/>
+    <functioncall functionName="get_big_blind"/>
+    <functioncall functionName="get_current_names"/>
+    <functioncall functionName="get_player_default_info"/>
+    <functioncall functionName="get_time"/>
+    <functioncall functionName="getline"/>
+    <functioncall functionName="good"/>
+    <functioncall functionName="gto_combo_allin_info"/>
+    <functioncall functionName="gto_file"/>
+    <functioncall functionName="gto_file_for_first_to_act"/>
+    <functioncall functionName="gto_file_for_one_allin"/>
+    <functioncall functionName="gto_file_for_three_allins"/>
+    <functioncall functionName="gto_file_for_two_allins"/>
+    <functioncall functionName="gto_file_full_path"/>
+    <functioncall functionName="hand_to_combo"/>
+    <functioncall functionName="hand_to_hand_by_highest_card"/>
+    <functioncall functionName="hero_combo"/>
+    <functioncall functionName="hero_eff_stack"/>
+    <functioncall functionName="hero_position"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="in_file"/>
+    <functioncall functionName="in_players_names_file"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isspace"/>
+    <functioncall functionName="istream_iterator"/>
+    <functioncall functionName="k_current_debug_value"/>
+    <functioncall functionName="k_debug"/>
+    <functioncall functionName="k_use_stack_ev_correction"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="line"/>
+    <functioncall functionName="log_allin_situation_name"/>
+    <functioncall functionName="log_eff_stack"/>
+    <functioncall functionName="log_file"/>
+    <functioncall functionName="log_hand_number"/>
+    <functioncall functionName="log_table_info"/>
+    <functioncall functionName="ltime"/>
+    <functioncall functionName="ltrim"/>
+    <functioncall functionName="memcmp"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="my_stack_size"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="need_rewrite"/>
+    <functioncall functionName="new_players_names"/>
+    <functioncall functionName="now"/>
+    <functioncall functionName="now_time"/>
+    <functioncall functionName="offset"/>
+    <functioncall functionName="one_allin_position"/>
+    <functioncall functionName="one_allin_positions_info"/>
+    <functioncall functionName="opportunities"/>
+    <functioncall functionName="out_players_names_file"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="p_info_empty_vector"/>
+    <functioncall functionName="percent"/>
+    <functioncall functionName="percent_as_double"/>
+    <functioncall functionName="percent_as_double_to_numeric"/>
+    <functioncall functionName="percent_as_text"/>
+    <functioncall functionName="percentage_file"/>
+    <functioncall functionName="percentage_file_path"/>
+    <functioncall functionName="play_exploit"/>
+    <functioncall functionName="played_percent"/>
+    <functioncall functionName="player_name"/>
+    <functioncall functionName="player_position"/>
+    <functioncall functionName="player_stack"/>
+    <functioncall functionName="players_names_file"/>
+    <functioncall functionName="position"/>
+    <functioncall functionName="position_to_chair_symbol"/>
+    <functioncall functionName="position_to_text"/>
+    <functioncall functionName="positions"/>
+    <functioncall functionName="positions_info"/>
+    <functioncall functionName="pquery"/>
+    <functioncall functionName="previous_value"/>
+    <functioncall functionName="rbegin"/>
+    <functioncall functionName="read_hand_number"/>
+    <functioncall functionName="read_region"/>
+    <functioncall functionName="read_symbol"/>
+    <functioncall functionName="rend"/>
+    <functioncall functionName="replace"/>
+    <functioncall functionName="result_length"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="round"/>
+    <functioncall functionName="rtrim"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="sb_chair"/>
+    <functioncall functionName="sb_chairs"/>
+    <functioncall functionName="sb_stack"/>
+    <functioncall functionName="scraped_result"/>
+    <functioncall functionName="set_all_chairs_positions"/>
+    <functioncall functionName="set_allin_info"/>
+    <functioncall functionName="set_bb_position"/>
+    <functioncall functionName="set_bet_values_on_blinds"/>
+    <functioncall functionName="set_big_blind"/>
+    <functioncall functionName="set_blinds_when_four_bb_found"/>
+    <functioncall functionName="set_blinds_when_no_bb_found"/>
+    <functioncall functionName="set_blinds_when_one_bb_found"/>
+    <functioncall functionName="set_blinds_when_three_bb_found"/>
+    <functioncall functionName="set_blinds_when_two_bb_found"/>
+    <functioncall functionName="set_bu_position"/>
+    <functioncall functionName="set_co_position"/>
+    <functioncall functionName="set_player_active"/>
+    <functioncall functionName="set_player_bet_and_balance"/>
+    <functioncall functionName="set_player_seated"/>
+    <functioncall functionName="set_sb_position"/>
+    <functioncall functionName="set_table_info"/>
+    <functioncall functionName="skipws"/>
+    <functioncall functionName="solution"/>
+    <functioncall functionName="stack"/>
+    <functioncall functionName="stack_in_bb"/>
+    <functioncall functionName="stack_range"/>
+    <functioncall functionName="stack_size"/>
+    <functioncall functionName="stack_to_blinds"/>
+    <functioncall functionName="stack_to_stack_range"/>
+    <functioncall functionName="stacks_info"/>
+    <functioncall functionName="stacks_info_for_first_to_act"/>
+    <functioncall functionName="stacks_info_for_one_allin"/>
+    <functioncall functionName="stacks_info_for_three_allins"/>
+    <functioncall functionName="stacks_info_for_two_allins"/>
+    <functioncall functionName="stacks_vector"/>
+    <functioncall functionName="start_pos"/>
+    <functioncall functionName="stat"/>
+    <functioncall functionName="stat_fold_value"/>
+    <functioncall functionName="stat_name"/>
+    <functioncall functionName="stat_name_info"/>
+    <functioncall functionName="stat_opp_all_name"/>
+    <functioncall functionName="stat_opp_all_value"/>
+    <functioncall functionName="stat_opp_by_eff_stack_name"/>
+    <functioncall functionName="stat_opp_by_eff_stack_value"/>
+    <functioncall functionName="stat_opp_info"/>
+    <functioncall functionName="stat_opp_value_to_text"/>
+    <functioncall functionName="stat_opportunities_info"/>
+    <functioncall functionName="stat_percent"/>
+    <functioncall functionName="stat_type"/>
+    <functioncall functionName="stat_value"/>
+    <functioncall functionName="stat_value_allin"/>
+    <functioncall functionName="stat_value_call"/>
+    <functioncall functionName="stat_value_fold"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="stod"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="strategy_file_full_path"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="strncmp"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="table_index"/>
+    <functioncall functionName="table_info"/>
+    <functioncall functionName="table_number"/>
+    <functioncall functionName="three_allin_positions"/>
+    <functioncall functionName="three_allin_positions_info"/>
+    <functioncall functionName="time"/>
+    <functioncall functionName="time_buf"/>
+    <functioncall functionName="tmptime"/>
+    <functioncall functionName="to"/>
+    <functioncall functionName="to_3_digits_after_dot"/>
+    <functioncall functionName="to_string"/>
+    <functioncall functionName="trim"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="trunc"/>
+    <functioncall functionName="two_allin_positions"/>
+    <functioncall functionName="two_allin_positions_info"/>
+    <functioncall functionName="ul_reason_for_call"/>
+    <functioncall functionName="unsetf"/>
+    <functioncall functionName="update_table"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="value_in_percent_to_text"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="write_log"/>
+  </FileInfo>
+</analyzerinfo>

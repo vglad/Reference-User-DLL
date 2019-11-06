@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1053857747">
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p_info[5]&apos; is assigned a value that is never used." verbose="Variable &apos;p_info[5]&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\userDllTestsV13\test.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\userDllTestsV13\test.cpp" line="718"/>
+            <symbol>p_info[5]</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Dev/Visual Studio 2017/Projects/Reference User DLL/User_DLL/TableInfo.h:17:21" call-funcname="get_player_default_info" call-argnr="1" filename="C:/Dev/Visual Studio 2017/Projects/Reference User DLL/User_DLL/TableInfo.inl" linenr="12" call-argexpr="i" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::fill algorithm instead of a raw loop." verbose="Consider using std::fill algorithm instead of a raw loop." cwe="398">
+            <location file0="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\userDllTestsV13\test.cpp" file="C:\Dev\Visual Studio 2017\Projects\Reference User DLL\User_DLL\TableInfo.inl" line="611"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="TEST" lineNumber="33"/>
+    <functiondecl functionName="TEST" lineNumber="51"/>
+    <functiondecl functionName="TEST" lineNumber="73"/>
+    <functiondecl functionName="TEST" lineNumber="98"/>
+    <functiondecl functionName="TEST" lineNumber="125"/>
+    <functiondecl functionName="TEST" lineNumber="150"/>
+    <functiondecl functionName="TEST" lineNumber="164"/>
+    <functiondecl functionName="TEST" lineNumber="178"/>
+    <functiondecl functionName="TEST" lineNumber="210"/>
+    <functiondecl functionName="TEST" lineNumber="248"/>
+    <functiondecl functionName="TEST" lineNumber="284"/>
+    <functiondecl functionName="TEST" lineNumber="323"/>
+    <functiondecl functionName="TEST" lineNumber="370"/>
+    <functiondecl functionName="TEST" lineNumber="402"/>
+    <functiondecl functionName="TEST" lineNumber="469"/>
+    <functiondecl functionName="TEST" lineNumber="535"/>
+    <functiondecl functionName="TEST" lineNumber="621"/>
+    <functiondecl functionName="TEST" lineNumber="668"/>
+    <functiondecl functionName="TEST" lineNumber="711"/>
+    <functiondecl functionName="TEST" lineNumber="796"/>
+    <functiondecl functionName="TEST" lineNumber="885"/>
+    <functiondecl functionName="TEST" lineNumber="981"/>
+    <functiondecl functionName="TEST" lineNumber="1016"/>
+    <functiondecl functionName="TEST" lineNumber="1161"/>
+    <functiondecl functionName="TEST" lineNumber="1228"/>
+    <functiondecl functionName="TEST" lineNumber="1249"/>
+    <functiondecl functionName="TEST" lineNumber="1273"/>
+    <functiondecl functionName="TEST" lineNumber="1300"/>
+    <functiondecl functionName="TEST" lineNumber="1327"/>
+    <functiondecl functionName="TEST" lineNumber="1427"/>
+    <functiondecl functionName="TEST" lineNumber="1448"/>
+    <functiondecl functionName="TEST" lineNumber="1488"/>
+    <functiondecl functionName="TEST" lineNumber="1522"/>
+    <functiondecl functionName="TEST" lineNumber="2182"/>
+    <functiondecl functionName="TEST" lineNumber="2198"/>
+    <functioncall functionName="BUILT_IN_SYMBOL"/>
+    <functioncall functionName="Converter"/>
+    <functioncall functionName="Converter_stack_int_to_blinds"/>
+    <functioncall functionName="EXPECT_EQ"/>
+    <functioncall functionName="HelperFunctions_check_number_for_dots"/>
+    <functioncall functionName="MEMORY_SYMBOL"/>
+    <functioncall functionName="OHCommunicator"/>
+    <functioncall functionName="ReturnProperNumberWithoutDotsFor2_4"/>
+    <functioncall functionName="ReturnProperValuesInBB"/>
+    <functioncall functionName="ReturnProperValuesWhenCheckActive"/>
+    <functioncall functionName="ReturnProperValuesWhenCheckSeated"/>
+    <functioncall functionName="SetBBPosition"/>
+    <functioncall functionName="SetBUPositionIf3or4Players"/>
+    <functioncall functionName="SetCOPositionIf4Players"/>
+    <functioncall functionName="SetCOPositionIfWrongInfo"/>
+    <functioncall functionName="SetProperActiveValues"/>
+    <functioncall functionName="SetProperAllinValue"/>
+    <functioncall functionName="SetProperBlindValues"/>
+    <functioncall functionName="SetProperSeatedValues"/>
+    <functioncall functionName="SetProperValuesForBalanceIfBetZero"/>
+    <functioncall functionName="SetProperValuesForBetAndBalanceOnBB"/>
+    <functioncall functionName="SetProperValuesForBetAndBalanceOnSB"/>
+    <functioncall functionName="SetProperValuesForBetIfBalanceZero"/>
+    <functioncall functionName="SetProperValuesForUnknownBet"/>
+    <functioncall functionName="SetProperValuesIfBetAndBalanceZero"/>
+    <functioncall functionName="SetProperValuesIfFourBBFound"/>
+    <functioncall functionName="SetProperValuesIfNoBBFoundSB0_3_4"/>
+    <functioncall functionName="SetProperValuesIfNoBBFoundSB1"/>
+    <functioncall functionName="SetProperValuesIfNoBBFoundSB2"/>
+    <functioncall functionName="SetProperValuesIfNotActive"/>
+    <functioncall functionName="SetProperValuesIfNotSeated"/>
+    <functioncall functionName="SetProperValuesIfOneBBFoundSB0_1"/>
+    <functioncall functionName="SetProperValuesIfOneBBFoundSB0_2"/>
+    <functioncall functionName="SetProperValuesIfOneBBFoundSB2"/>
+    <functioncall functionName="SetProperValuesIfOneBBFoundSB3"/>
+    <functioncall functionName="SetProperValuesIfThreeBBFound"/>
+    <functioncall functionName="SetProperValuesIfTwoBBFoundSB0_1"/>
+    <functioncall functionName="SetProperValuesIfTwoBBFoundSB0_2"/>
+    <functioncall functionName="SetProperValuesIfTwoBBFoundSB1_1"/>
+    <functioncall functionName="SetProperValuesIfTwoBBFoundSB1_2"/>
+    <functioncall functionName="SetSBPosition"/>
+    <functioncall functionName="SkipBUPositionIf2Players"/>
+    <functioncall functionName="TEST"/>
+    <functioncall functionName="TableInfo"/>
+    <functioncall functionName="TableInfo_check_enough_players_active"/>
+    <functioncall functionName="TableInfo_check_enough_players_seated"/>
+    <functioncall functionName="TableInfo_set_all_chairs_positions"/>
+    <functioncall functionName="TableInfo_set_allin_info"/>
+    <functioncall functionName="TableInfo_set_bet_values_on_blinds"/>
+    <functioncall functionName="TableInfo_set_big_blind"/>
+    <functioncall functionName="TableInfo_set_player_active"/>
+    <functioncall functionName="TableInfo_set_player_bet_and_balance"/>
+    <functioncall functionName="TableInfo_set_player_seated"/>
+    <functioncall functionName="active_players_counter"/>
+    <functioncall functionName="allin_situation"/>
+    <functioncall functionName="append"/>
+    <functioncall functionName="atoi"/>
+    <functioncall functionName="balance"/>
+    <functioncall functionName="base"/>
+    <functioncall functionName="bb_chair"/>
+    <functioncall functionName="bb_chairs"/>
+    <functioncall functionName="bblind"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bet"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="bu_chair"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="card1"/>
+    <functioncall functionName="card2"/>
+    <functioncall functionName="card_index"/>
+    <functioncall functionName="card_rank_to_int"/>
+    <functioncall functionName="ch"/>
+    <functioncall functionName="chair"/>
+    <functioncall functionName="chair1"/>
+    <functioncall functionName="chair2"/>
+    <functioncall functionName="chair_bit_value"/>
+    <functioncall functionName="chair_number"/>
+    <functioncall functionName="check_enough_players_active"/>
+    <functioncall functionName="check_enough_players_seated"/>
+    <functioncall functionName="check_number_for_dots"/>
+    <functioncall functionName="clear_table_info"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="find_if"/>
+    <functioncall functionName="first_digit"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="from"/>
+    <functioncall functionName="get_big_blind"/>
+    <functioncall functionName="get_player_default_info"/>
+    <functioncall functionName="hand_to_hand_by_highest_card"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="isspace"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="log_table_info"/>
+    <functioncall functionName="ltrim"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="p_info"/>
+    <functioncall functionName="p_info_empty_vector"/>
+    <functioncall functionName="position"/>
+    <functioncall functionName="positions"/>
+    <functioncall functionName="rbegin"/>
+    <functioncall functionName="read_region"/>
+    <functioncall functionName="read_symbol"/>
+    <functioncall functionName="rend"/>
+    <functioncall functionName="replace"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="round"/>
+    <functioncall functionName="rtrim"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="sb_chair"/>
+    <functioncall functionName="sb_chairs"/>
+    <functioncall functionName="set_all_chairs_positions"/>
+    <functioncall functionName="set_allin_info"/>
+    <functioncall functionName="set_bb_position"/>
+    <functioncall functionName="set_bet_values_on_blinds"/>
+    <functioncall functionName="set_big_blind"/>
+    <functioncall functionName="set_blinds_when_four_bb_found"/>
+    <functioncall functionName="set_blinds_when_no_bb_found"/>
+    <functioncall functionName="set_blinds_when_one_bb_found"/>
+    <functioncall functionName="set_blinds_when_three_bb_found"/>
+    <functioncall functionName="set_blinds_when_two_bb_found"/>
+    <functioncall functionName="set_bu_position"/>
+    <functioncall functionName="set_co_position"/>
+    <functioncall functionName="set_player_active"/>
+    <functioncall functionName="set_player_bet_and_balance"/>
+    <functioncall functionName="set_player_seated"/>
+    <functioncall functionName="set_sb_position"/>
+    <functioncall functionName="stack"/>
+    <functioncall functionName="stack_int_to_blinds"/>
+    <functioncall functionName="stack_to_blinds"/>
+    <functioncall functionName="start_pos"/>
+    <functioncall functionName="stat"/>
+    <functioncall functionName="stat_fold_value"/>
+    <functioncall functionName="stat_value"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="table_info"/>
+    <functioncall functionName="to"/>
+    <functioncall functionName="to_string"/>
+    <functioncall functionName="trim"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="write_log"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="314240851">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="GetSymbol" lineNumber="66"/>
+    <functiondecl functionName="GetPrw1326" lineNumber="74"/>
+    <functiondecl functionName="GetHandnumber" lineNumber="82"/>
+    <functiondecl functionName="GetPlayerName" lineNumber="90"/>
+    <functiondecl functionName="GetTableTitle" lineNumber="98"/>
+    <functiondecl functionName="ParseHandList" lineNumber="106"/>
+    <functiondecl functionName="ScrapeTableMapRegion" lineNumber="114"/>
+    <functiondecl functionName="SendChatMessage" lineNumber="122"/>
+    <functiondecl functionName="WriteLog" lineNumber="130"/>
+    <functiondecl functionName="LookupOpenHoldemFunction" lineNumber="150"/>
+    <functiondecl functionName="InitializeOpenHoldemFunctionInterface" lineNumber="170"/>
+    <functiondecl functionName="ErrorPointerNotInitialized" lineNumber="182"/>
+    <functioncall functionName="ErrorPointerNotInitialized"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="GetModuleHandle"/>
+    <functioncall functionName="GetProcAddress"/>
+    <functioncall functionName="LookupOpenHoldemFunction"/>
+    <functioncall functionName="MB_ICONERROR"/>
+    <functioncall functionName="MessageBox"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="args"/>
+    <functioncall functionName="chair"/>
+    <functioncall functionName="error_message"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="function_name"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="list_body"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="name_of_list"/>
+    <functioncall functionName="name_of_single_symbol__not_expression"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="openholdem_main_module"/>
+    <functioncall functionName="p_GetHandnumber"/>
+    <functioncall functionName="p_GetPlayerName"/>
+    <functioncall functionName="p_GetPrw1326"/>
+    <functioncall functionName="p_GetSymbol"/>
+    <functioncall functionName="p_GetTableTitle"/>
+    <functioncall functionName="p_ParseHandList"/>
+    <functioncall functionName="p_ScrapeTableMapRegion"/>
+    <functioncall functionName="p_SendChatMessage"/>
+    <functioncall functionName="p_WriteLog"/>
+    <functioncall functionName="p_region"/>
+    <functioncall functionName="p_returned_lengh"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="va_end"/>
+    <functioncall functionName="va_start"/>
+  </FileInfo>
+</analyzerinfo>
